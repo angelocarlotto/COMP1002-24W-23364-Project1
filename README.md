@@ -1,9 +1,15 @@
 # A BIG WWW of Whole Project
+## Task List
+- [X] Task 1: first meeting
+- [ ] Task 2: explain github
+- [ ] Task 3: explain Jira
+- [ ] Task 4: Show v1.0 of layout
+
 ## What
 
 This is out 1st project developing only with HTML, CSS and Javasript about typewriters
 
-<img src="images_readme/print-1.png">
+<img src="images_readme/print-1.png" width="400">
 
 ## Who
 
