@@ -1,0 +1,119 @@
+@charset "UTF-8";
+body{
+  background-color: #F1ECE2;
+}
+
+img{
+  mix-blend-mode: multiply;
+}
+/* Arrange the SECTION and the ASIDE elements side-by-side in columns */
+main form {
+  display: flex;
+  flex-direction: row;
+  
+}
+/* Make the SECTION column a bit wider than the ASIDE column */
+main form section {
+  width: 60%;
+}
+
+main form aside {
+  width: 40%;
+}
+
+.divSocialLogo {
+  text-align: center;
+}
+
+/* divs footer logos social midia*/
+
+.divSocialLogo img {
+  width: 20px;
+  margin-left: 20px;
+}
+
+.divSocialLogo a {
+  text-decoration: none;
+}
+
+input[type="radio"] {
+  width: inherit;
+}
+
+
+.imgLogo {
+  width: 200px;
+}
+
+.divLogo{
+  text-align: center;
+}
+
+.actionButtons {
+  text-align: right;
+}
+footer {
+  background-color: #7b7884;
+}
+
+/* nav bar top*/
+ul.horizontal {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #9C0614;
+}
+
+ul.horizontal li {
+  float: left;
+}
+
+ul.horizontal li a {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+ul.horizontal li a:hover:not(.active) {
+  background-color: #943634;
+}
+
+ul.horizontal li a.active {
+  background-color: #ffb81d;
+}
+
+ul.horizontal2 {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  border: 1px solid #e7e7e7;
+  background-color: #f3f3f3;
+}
+
+ul.horizontal2 li {
+  float: left;
+}
+
+ul.horizontal2 li a {
+  display: inline-block;
+  color: #666;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+ul.horizontal2 li a:hover:not(.active) {
+  background-color: #ddd;
+}
+
+ul.horizontal2 a.active {
+  color: white;
+  background-color: #04aa6d;
+}
+.width94 {
+  width: 94%;
+}
