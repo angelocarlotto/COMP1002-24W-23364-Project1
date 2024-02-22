@@ -3,6 +3,8 @@
 
 This is out 1st project developing only with HTML, CSS and Javasript about typewriters
 
+<img src="images_readme/print-1.png">
+
 ## Who
 
 Our Gang is composed by four students at Georgian College, Toronto, Canada.
