@@ -39,7 +39,7 @@ The names are:
     <tr>
         <td>
             <p>
-                <em>Henryque </em>
+                <em>Henry </em>
                 <figure>
                     <img src="images_readme/henrique.png" width="150">
                 </figure>
