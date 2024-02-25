@@ -1,125 +1,94 @@
-@charset "UTF-8";
-body{
-  background-color: #F1ECE2;
+/*General Style*/
+* {
+    /*remove some extra stuff that browser can add to page by default*/
+    margin: 0;/*remove margin from all elements*/
+    padding: 0;/*remove padding from all elements*/
+    box-sizing: border-box;/*apply border-box to all elements*/
+    font-family: 'Poppins', sans-serif;/*apply font family to all elements*/
 }
 
-img{
-  mix-blend-mode: multiply;
-}
-/* Arrange the SECTION and the ASIDE elements side-by-side in columns */
-main form {
-  display: flex;
-  flex-direction: row;
-  
-}
-/* Make the SECTION column a bit wider than the ASIDE column */
-main form section {
-  width: 60%;
+/*header style*/
+header {
+    display: flex;/*display header as flex*/
+    align-items: center;/*align header items to center*/
+    box-shadow: 0 10px 40px rgba(0, 0, 0, 0.391);/*add shadow to header*/
+    background: linear-gradient(to bottom, rgb(85, 17, 60), rgba(55, 14, 37, 0.931));/*apply gradient to header*/
 }
 
-main form aside {
-  width: 40%;
-}
+header .menu-search{        
+    margin-right: 50px;/*add margin to menu-search*/
 
-.divSocialLogo {
-  text-align: center;
-}
-
-/* divs footer logos social midia*/
-
-.divSocialLogo img {
-  width: 20px;
-  margin-left: 20px;
-}
-
-.divSocialLogo a {
-  text-decoration: none;
-}
-
-input[type="radio"] {
-  width: inherit;
 }
 
 
-.imgLogo {
-  width: 200px;
+header .logo{
+    padding-top: 10px;
+    margin-left: 50px;/*add margin to logo*/
 }
 
-.divLogo{
-  text-align: center;
+header .logo:hover{
+    transition: 0.2s;/*add transition effect to logo*/
+    transform: scale(1.10);/*increase size of logo on hover*/
+    cursor: pointer;/*change cursor to pointer on hover*/
 }
 
-.actionButtons {
-  text-align: right;
+header nav {
+    flex-grow: 1; /*flex grow makes nav menu takes up remaining space of header making it spread troughout the navigation menu */
+    text-align: center; /*center align links*/
 }
+
+header a{
+    color:rgb(255, 255, 255);/*change color of links*/
+    text-decoration: none;/*remove underline from links*/
+}
+
+header a:hover {
+    transition: 0.2s;/*add transition effect to links on hover*/
+    color: rgb(178, 154, 193);/*change color of links on hover*/
+}
+
+header nav ul li{ /*navigation menu links*/
+    justify-content: center;
+    display: inline-block; /*display links in a row*/
+    padding: 0 100px; /*add padding to each link*/
+}
+
+
+
+/*body style*/
+body {
+    background-color: rgb(208, 205, 205);/*change background color of body*/
+}
+
+
+
+/*footer style*/
 footer {
-  background-color: #7b7884;
+    display: flex;/*display footer as flex*/
+    align-items: center;/*align footer items to center*/
+    justify-content: space-between;/*justify content of footer to space between*/
+    background: linear-gradient(to bottom, rgba(55, 14, 37, 0.931), rgb(85, 17, 60));
+    box-shadow: 0 10px 40px rgba(0, 0, 0, 0.391);/*add shadow to footer*/
+    
 }
 
-/* nav bar top*/
-ul.horizontal {
-  list-style-type: none;
-  margin: 0;
-  padding: 0 40px;
-  overflow: hidden;
-  background-color: #9C0614;
-  box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.695);
+footer .logo{
+    margin-left: 70px;/*add margin to logo*/
 }
 
-ul.horizontal li {
-  float: left;
+footer .logo:hover{
+    transition: 0.2s;/*add transition effect to logo*/
+    transform: scale(1.10);/*increase size of logo on hover*/
+    cursor: pointer;/*change cursor to pointer on hover*/
 }
 
-ul.horizontal li a {
-  display: inline-block;
-  color: white;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
+footer .social-media-buttons{
+    margin-right: 50px;/*add margin to social media buttons*/    
+}
+footer .social-media-buttons a{
+    margin: 0 10px;/*add margin to social media buttons*/
 }
 
-ul.horizontal li a:hover:not(.active) {
-  background-color: #943634;
-}
-
-ul.horizontal li a.active {
-  background-color: #ffb81d;
-}
-
-ul.horizontal2 {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-  border: 1px solid #e7e7e7;
-  background-color: #f3f3f3;
-}
-
-ul.horizontal2 li {
-  float: left;
-}
-
-ul.horizontal2 li a {
-  display: inline-block;
-  color: #666;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-}
-
-ul.horizontal2 li a:hover:not(.active) {
-  background-color: #ddd;
-}
-
-ul.horizontal2 a.active {
-  color: white;
-  background-color: #04aa6d;
-}
-.width94 {
-  width: 94%;
-}
-
-.imgLogo:hover {
-  transform: scale(1.1);
-  transition: 0.2s;
+footer .social-media-buttons:hover{
+    cursor: pointer;/*change cursor to pointer on hover*/
 }
