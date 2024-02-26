@@ -16,8 +16,25 @@ header {
 }
 
 header .menu-search{        
-    margin-right: 50px;/*add margin to menu-search*/
+    margin-right: 50px;/*add margin to menu-search*/;
+    
+}
 
+header .menu-search input{
+    padding: 10px 20px;/*add padding to input field*/
+    border: none;/*remove border from input*/
+    border-radius: 20px;/*add border radius to input*/
+    
+    
+}
+
+header .menu-search button {
+    display: none; /* hides button search */
+}
+
+header .menu-search input:hover {
+    transition: 0.2s;
+    transform: scale(1.10);
 }
 
 
