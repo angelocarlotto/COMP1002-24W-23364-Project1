@@ -83,7 +83,8 @@ footer .logo:hover{
 }
 
 footer .social-media-buttons{
-    margin-right: 50px;/*add margin to social media buttons*/    
+    margin-right: 50px;/*add margin to social media buttons*/
+    filter: invert(1);/*invert color of social media buttons*/    
 }
 footer .social-media-buttons a{
     margin: 0 10px;/*add margin to social media buttons*/
