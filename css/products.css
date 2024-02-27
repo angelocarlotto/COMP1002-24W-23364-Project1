@@ -1,4 +1,20 @@
 main {
+  text-align: justify;
+  padding-right: 100px;
+  padding-left: 100px;
+}
 
-    background-color: red;
+main h1 {
+  text-align: center;
+}
+
+main div img {
+  width: 300px;
+}
+
+main div {
+  border-bottom-style: dotted;
+  text-align: center;
+  box-shadow: 5px 2px 0px #717172;
+  box-sizing: border-box;
 }
