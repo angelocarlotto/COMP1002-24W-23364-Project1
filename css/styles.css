@@ -52,17 +52,21 @@ header .logo:hover{
 header nav {
     flex-grow: 1; /*flex grow makes nav menu takes up remaining space of header making it spread troughout the navigation menu */
     text-align: center; /*center align links*/
+
 }
 
 header a{
     color:rgb(255, 255, 255);/*change color of links*/
     text-decoration: none;/*remove underline from links*/
+    font-size: 23px;
 }
 
 header a:hover {
     transition: 0.2s;/*add transition effect to links on hover*/
     color: rgb(178, 154, 193);/*change color of links on hover*/
 }
+
+
 
 header nav ul li{ /*navigation menu links*/
     justify-content: center;
@@ -87,6 +91,10 @@ footer {
     background: linear-gradient(to bottom, rgba(55, 14, 37, 0.931), rgb(85, 17, 60));
     box-shadow: 0 10px 40px rgba(0, 0, 0, 0.391);/*add shadow to footer*/
     
+}
+
+footer .footer-text {
+    color: white;
 }
 
 footer .logo{
