@@ -85,6 +85,10 @@ body {
 
 /*footer style*/
 footer {
+    position: absolute;
+    bottom: 0;/*position footer at bottom of page*/
+    width: 100%;
+    left: 0;
     display: flex;/*display footer as flex*/
     align-items: center;/*align footer items to center*/
     justify-content: space-between;/*justify content of footer to space between*/
