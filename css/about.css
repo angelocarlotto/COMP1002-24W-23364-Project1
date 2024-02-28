@@ -1,0 +1,55 @@
+
+.head1{
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    color: black; 
+
+}
+.head2{
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    color: black; 
+    line-height: 1.5;
+}
+main {
+    text-align: justify;
+    padding-right: 100px;
+    padding-left: 100px;
+    line-height: 1.5;
+  }
+  ul.ulPaddingclass{
+  align-items: justify;
+  text-align: justify;
+  padding-right: 100px;
+  padding-left: 40px;
+  margin-left: 100;
+  line-height: 1.75;
+  }
+  .asidesection {
+    width: 30%;
+    margin-left: auto;
+    margin-top: 0;
+}
+
+
+.container{
+    display: flex;
+    align-items: center;
+}
+aside{
+    width: 30%;
+    margin-left: auto;
+    margin-top: 0;
+}
+main aside{
+    width: 30%;
+    margin-left: auto;
+    margin-top: 0;
+}
+p{
+    line-height: 1.5;
+}
