@@ -74,6 +74,10 @@ header nav ul li{ /*navigation menu links*/
     padding: 0 100px; /*add padding to each link*/
 }
 
+header nav ul li a.active{
+    color: rgb(178, 154, 193);/*change color of active link*/
+}
+
 
 
 /*body style*/
