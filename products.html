@@ -60,57 +60,67 @@
         remarkable typewriter models that not only showcase exceptional
         craftsmanship but also embody the nostalgia of a bygone era.
       </p>
+      <br>
       <hr />
-      <div class="swiper mySwiper">
-        <div class="swiper-wrapper">
-          <div class="swiper-slide">
-            <article>
+      <br>
+      <div class="container">
+        <div class="carousel-view">
+          <!-- Left Button -->
+          <button id="prev-btn" class="prev-btn">
+            <svg viewBox="0 0 512 512" width="20" title="chevron-circle-left">
+              <path
+                d="M256 504C119 504 8 393 8 256S119 8 256 8s248 111 248 248-111 248-248 248zM142.1 273l135.5 135.5c9.4 9.4 24.6 9.4 33.9 0l17-17c9.4-9.4 9.4-24.6 0-33.9L226.9 256l101.6-101.6c9.4-9.4 9.4-24.6 0-33.9l-17-17c-9.4-9.4-24.6-9.4-33.9 0L142.1 239c-9.4 9.4-9.4 24.6 0 34z"
+              />
+            </svg>
+          </button>
+          <!-- List Container -->
+          <div id="item-list" class="item-list">
+            <!-- Items -->
+            <div class="item">
               <img src="images/products/image1.png" />
               <p>Model A</p>
               <p>$5.00</p>
-              <p><button>Read More</button></p>
-            </article>
+              <a href="#">Read more</a>
+            </div>
+            <div class="item">
+              <img src="images/products/image2.jpg" />
+              <p>Model B</p>
+              <p>$5.00</p>
+              <a href="#">Read more</a>
+            </div>
+            <div class="item">
+              <img src="images/products/image3.jpg" />
+              <p>Model C</p>
+              <p>$5.00</p>
+              <a href="#">Read more</a>
+            </div>
+            <div class="item">
+              <img src="images/products/image4.jpg" />
+              <p>Model D</p>
+              <p>$5.00</p>
+              <a href="#">Read more</a>
+            </div>
+            <div class="item">
+              <img src="images/products/image5.jpg" />
+              <p>Model E</p>
+              <p>$5.00</p>
+              <a href="#">Read more</a>
+            </div>
           </div>
-          <div class="swiper-slide">
-            <img src="images/products/image2.jpg" />
-            <p>Model B</p>
-            <p>$5.00</p>
-            <p><button>Read More</button></p>
-          </div>
-          <div class="swiper-slide">
-            <img src="images/products/image3.jpg" />
-            <p>Model C</p>
-            <p>$5.00</p>
-            <p><button>Read More</button></p>
-          </div>
-          <div class="swiper-slide">
-            <img src="images/products/image4.jpg" />
-            <br />
-            <p>Model D</p>
-            <p>$5.00</p>
-            <p><button>Read More</button></p>
-          </div>
-          <div class="swiper-slide">
-            <img src="images/products/image5.jpg" />
-            <p>Model E</p>
-            <p>$5.00</p>
-            <p><button>Read More</button></p>
-          </div>
-          <div class="swiper-slide">
-            <img src="images/products/image6.png" />
-            <p>Model F</p>
-            <p>$5.00</p>
-            <p><button>Read More</button></p>
-          </div>
-          <div class="swiper-slide">
-            <img src="images/products/image1.png" />
-            <p>Model G</p>
-            <p>$5.00</p>
-            <p><button>Read More</button></p>
-          </div>
+
+          <!-- Right Button -->
+          <button id="next-btn" class="next-btn">
+            <svg viewBox="0 0 512 512" width="20" title="chevron-circle-right">
+              <path
+                d="M256 8c137 0 248 111 248 248S393 504 256 504 8 393 8 256 119 8 256 8zm113.9 231L234.4 103.5c-9.4-9.4-24.6-9.4-33.9 0l-17 17c-9.4 9.4-9.4 24.6 0 33.9L285.1 256 183.5 357.6c-9.4 9.4-9.4 24.6 0 33.9l17 17c9.4 9.4 24.6 9.4 33.9 0L369.9 273c9.4-9.4 9.4-24.6 0-34z"
+              />
+            </svg>
+          </button>
         </div>
-        <div class="swiper-pagination"></div>
       </div>
+      <br/>
+      <br/>
+      <br/>
     </main>
 
     <!-- footer -->
@@ -150,5 +160,22 @@
         /></a>
       </div>
     </footer>
+
+    <script>
+      const prev = document.getElementById("prev-btn");
+      const next = document.getElementById("next-btn");
+      const list = document.getElementById("item-list");
+
+      const itemWidth = 150;
+      const padding = 10;
+
+      prev.addEventListener("click", () => {
+        list.scrollLeft -= itemWidth + padding;
+      });
+
+      next.addEventListener("click", () => {
+        list.scrollLeft += itemWidth + padding;
+      });
+    </script>
   </body>
 </html>
