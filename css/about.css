@@ -4,7 +4,7 @@
     align-items: center;
     justify-content: center;
     display: flex;
-    color: black; 
+    color: rgba(55, 14, 37, 0.931);
 
 }
 .head2{
@@ -12,7 +12,7 @@
     align-items: center;
     justify-content: center;
     display: flex;
-    color: black; 
+    color: rgba(55, 14, 37, 0.931);
     line-height: 1.5;
 }
 main {
@@ -39,6 +39,7 @@ main {
 .container{
     display: flex;
     align-items: center;
+    column-width: 0cap;
 }
 aside{
     width: 30%;
@@ -52,4 +53,10 @@ main aside{
 }
 p{
     line-height: 1.5;
+}
+section{
+    width: 65%;
+    align-items: flex-start;
+    position: relative;
+
 }
