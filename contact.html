@@ -14,6 +14,7 @@
 
         <title>Nostalgia Keys</title>
         <link rel="stylesheet" href="css/styles.css" />
+        <link rel="stylesheet" href="css/contact.css" />
         <link rel="icon" type="image/x-icon" href="/images/favicon.ico" />
         </head>
 
@@ -46,8 +47,26 @@
         </header>
 
         <main>
-            <h1>Contact Shabnam</h1>
-            <p>For any inquiries, please contact us at:</p>
+            
+            <div class="container">
+                <div class="top">
+                    <h1>Contact</h1>
+                    <p>For any inquiries, please contact us at:</p>
+                </div>
+                <div class="bottom">
+                    <div class="left"></div>
+                    <div class="right">
+                        <form action="contact.php" method="post">
+                           <input type="text" name="" id="firtname" placeholder="First Name">
+                            <input type="text" name="" id="lastname" placeholder="Last Name">
+                            <input type="email" name="email" id="email" placeholder="Your email">
+                            <textarea name="" id="" cols="30" rows="10" placeholder="Your Message"></textarea>
+                            <input type="submit" value="Submit">
+                        </form>
+                    </div>
+                </div>
+                
+            </div>
           
         </main>
         
