@@ -1,13 +1,12 @@
-
-.head1{
+.head1 {
     text-align: center;
     align-items: center;
     justify-content: center;
     display: flex;
     color: rgba(55, 14, 37, 0.931);
-
 }
-.head2{
+
+.head2 {
     text-align: center;
     align-items: center;
     justify-content: center;
@@ -15,51 +14,88 @@
     color: rgba(55, 14, 37, 0.931);
     line-height: 1.5;
 }
+
 main {
     text-align: justify;
     padding-right: 100px;
     padding-left: 100px;
     line-height: 1.5;
-  }
-  ul.ulPaddingclass{
-  align-items: justify;
-  text-align: justify;
-  padding-right: 100px;
-  padding-left: 40px;
-  margin-left: 100;
-  line-height: 1.75;
-  }
-  .asidesection {
-    width: 30%;
-    margin-right: auto;
-    margin-top: 20%;
+    display: inline-block;
 }
 
-
-.container{
-    display: flex;
-    align-items: center;
-    width: flex;
-}
-aside{
-    width: 30%;
-    margin-left: auto;
-    margin-top: 0;
-}
-main section{
+main section {
     text-align: justify;
     width: 65%;
     margin-left: 0;
     margin-top: 0;
-    align-items: initial;
-
+    display: inline-block;
+    
 }
-p{
+
+.container, .image6 {
+    display: inline-block;
+    align-content: flex-end;
+    margin-right: 0%;
+    border-radius: 15%;
+    box-shadow: 10px 10px 5px 0px rgba(168, 159, 164, 0.931);
+    margin-top: 10px;
+}
+
+.paragraphSection {
+    display: flexbox;
+    align-content: left;
+    margin-left: 0%;
+    width: 60%;
+    margin-top: 0px;
+}
+
+.ulPaddingclass {
+    padding: 5%; /* Reset padding */
+    text-align: justify;
+    line-height: 1.5;
+    margin-top: 0%;
+}
+li{
     line-height: 1.5;
 }
-section{
-    width: 65%;
-    align-items: flex-start;
-    position: relative;
 
+.intro {
+    text-align: justify;
+    margin-bottom: 0%;
+}
+.purpleParagraph{
+    margin-top: 30px;
+    display: flexbox;
+    margin-left: 0%;
+    width: 60%;
+    color: rgba(55, 14, 37, 0.931);
+}
+blockquote{
+    text-align: justify;
+    font-style: oblique;
+    width: 100% ;
+    margin-bottom: 10px;
+}
+p{
+    margin-bottom: 20px;
+}
+a{
+    text-decoration: none;
+}
+ul{
+    margin-top: 0%;
+}
+.box{
+    width: 25%;
+    border: 2px solid rgba(55, 14, 37, 0.253);
+    padding: 10px;
+    margin: 30px;
+    background-color: rgb(224, 214, 230);
+    border-radius: 10%;
+    margin-left: 0%;
+    display: inline-block;
+}
+.quotes{
+    margin-bottom: 0%;
+    text-align: left;
 }
