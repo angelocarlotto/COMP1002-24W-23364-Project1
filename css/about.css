@@ -31,25 +31,28 @@ main {
   }
   .asidesection {
     width: 30%;
-    margin-left: auto;
-    margin-top: 0;
+    margin-right: auto;
+    margin-top: 20%;
 }
 
 
 .container{
     display: flex;
     align-items: center;
-    column-width: 0cap;
+    width: flex;
 }
 aside{
     width: 30%;
     margin-left: auto;
     margin-top: 0;
 }
-main aside{
-    width: 30%;
-    margin-left: auto;
+main section{
+    text-align: justify;
+    width: 65%;
+    margin-left: 0;
     margin-top: 0;
+    align-items: initial;
+
 }
 p{
     line-height: 1.5;
