@@ -1,4 +1,4 @@
-.head1 {
+.head1 { /*Colour of the font in h1*/
     text-align: center;
     align-items: center;
     justify-content: center;
@@ -6,7 +6,7 @@
     color: rgba(55, 14, 37, 0.931);
 }
 
-.head2 {
+.head2 { /*Colour of the font in h2*/
     text-align: center;
     align-items: center;
     justify-content: center;
@@ -15,7 +15,7 @@
     line-height: 1.5;
 }
 
-main {
+main { /*main content information*/
     text-align: justify;
     padding-right: 100px;
     padding-left: 100px;
@@ -23,25 +23,27 @@ main {
     display: inline-block;
 }
 
-main section {
+main section { /*Section settings within main*/
     text-align: justify;
     width: 65%;
     margin-left: 0;
     margin-top: 0;
     display: inline-block;
     
+    
 }
 
-.container, .image6 {
+.container, .image6 { /*settings for the image and container*/
     display: inline-block;
     align-content: flex-end;
     margin-right: 0%;
     border-radius: 15%;
     box-shadow: 10px 10px 5px 0px rgba(168, 159, 164, 0.931);
     margin-top: 10px;
+
 }
 
-.paragraphSection {
+.paragraphSection { /*Settings for paragraph contained within section element*/
     display: flexbox;
     align-content: left;
     margin-left: 0%;
@@ -50,52 +52,75 @@ main section {
 }
 
 .ulPaddingclass {
-    padding: 5%; /* Reset padding */
+    padding: 5%; /* unordered listed items settings */
     text-align: justify;
     line-height: 1.5;
     margin-top: 0%;
+    height: 100%;
 }
-li{
+li{ /*listed items settings*/
     line-height: 1.5;
+    height: max-content;
 }
 
-.intro {
+.intro { /* first paragraph intro class for changing settings separetely*/
     text-align: justify;
     margin-bottom: 0%;
 }
-.purpleParagraph{
+.purpleParagraph{ /*paragraph displayed on the left with specified colours and attributes*/
     margin-top: 30px;
     display: flexbox;
     margin-left: 0%;
     width: 60%;
     color: rgba(55, 14, 37, 0.931);
 }
-blockquote{
+.purpleParagraph2{ /*paragraph centralized for presenting clients opinions*/
+    margin-top: 30px;
+    display: flexbox;
+    width: 100%;
+    color: rgba(55, 14, 37, 0.931);
+    text-align: center;
+    align-items: center;
+    font-size: larger;
+}
+blockquote{ /*quoting */
     text-align: justify;
     font-style: oblique;
     width: 100% ;
     margin-bottom: 10px;
 }
-p{
+p{ /*general margin for paragraphs */
     margin-bottom: 20px;
 }
-a{
+a{ /*link information without underline*/
     text-decoration: none;
 }
-ul{
+ul{ /*unordered margin top*/
     margin-top: 0%;
 }
-.box{
+.box{ /*box for clients quotes*/
     width: 25%;
     border: 2px solid rgba(55, 14, 37, 0.253);
     padding: 10px;
     margin: 30px;
-    background-color: rgb(224, 214, 230);
+    background-color: rgb(208, 196, 214);
     border-radius: 10%;
     margin-left: 0%;
     display: inline-block;
+    box-shadow: 10px 10px 5px 0px rgba(168, 159, 164, 0.931);
+
+    
 }
-.quotes{
+.quotes{ /*information settings of quotes inside boxes*/
     margin-bottom: 0%;
     text-align: left;
+}
+#item-list{ /*box to contain items */
+    display: flex;
+    justify-content: center;
+    border: 2px solid rgba(55, 14, 37, 0.253);
+    background-color: rgb(248, 237, 237);
+    margin-bottom: 15px;
+    width: 100%;
+
 }
