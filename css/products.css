@@ -1,13 +1,17 @@
 main {
-  text-align: justify;
-  padding-right: 100px;
-  padding-left: 100px;
+
+  display: flex;
+flex-direction: column;
+height: 720px;
+margin: 0 70px;
+padding: 20px;
+box-shadow: 0 15px 40px rgba(0, 0, 0, .5);
 }
 
 main h1 {
   text-align: center;
+  color: rgba(55, 14, 37, 0.931);
 }
-
 /* refer to caroucel galery */
 
 button {
@@ -22,7 +26,7 @@ button {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: white;
+  background-color: rgba(255, 255, 255, 0);
 }
 
 .carousel-view {
@@ -72,21 +76,6 @@ main  img {
   border-radius: 8px;
 }
 
-main  a {
-
-  background-color: gray;
-  border-radius: 8px;
-  border: 5px 5px 5px 5px;
-  padding: 5px 5px 10px 10px;
-  text-decoration: none;
-  text-align: center;
-  color: black;
-  cursor: pointer;
-}
-
-main  a:hover {
-  background-color: #686363;
-}
 
 .listaImagens{
   text-align: center;
@@ -94,4 +83,18 @@ main  a:hover {
 
 .listaImagens div{
   padding-top: 30px;
+}
+
+.item a {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #3498db; /* Change the background color to your desired color */
+  color: #ffffff; /* Set the text color to contrast with the background */
+  text-decoration: none;
+  border-radius: 5px; /* Optional: Add rounded corners for a button-like appearance */
+  transition: background-color 0.3s ease; /* Optional: Add a smooth transition effect */
+}
+
+.item a:hover {
+  background-color: #2980b9; /* Change the background color on hover to give feedback */
 }
