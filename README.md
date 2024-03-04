@@ -17,7 +17,7 @@ Our Gang is composed by four students at Georgian College, Toronto, Canada.
 
 The names are:
 
-<table border="0">
+<table >
     <tr>
         <td>
             <p>
