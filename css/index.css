@@ -4,7 +4,7 @@ main .main-page {
     align-items: center;
     padding: 60px 0;
     margin: 0 10%;
-    gap: 100px;
+    gap: 200px;
     margin-bottom: 50px;  
 }
 
@@ -14,9 +14,6 @@ main .main-page .home-text {
     
 }
 
-main .main-page .home-text p {
-    margin-bottom: 20px;
-}
 main .main-page .home-text h1{  
     font-size: 40px;
     line-height: 40px;
@@ -41,5 +38,7 @@ main .main-page button:hover {
 }
 main .main-page .home-img img{
     border-radius: 50%;
-    box-shadow: 0 10px 40px rgba(0, 0, 0, 0.391); 
+    box-shadow: 0 10px 40px rgba(0, 0, 0, 0.391);
+    width: 100%;
+    height: 100%; 
 }
