@@ -1,24 +1,20 @@
 main .main-page {
     display: flex;
-    justify-content: space-between;
     align-items: center;
     padding: 60px 0;
     margin: 0 10%;
-    gap: 200px;
+    gap: 100px;
     margin-bottom: 50px;  
 }
 
 main .main-page .home-text {
-    text-align: justify;
-    font-size: 23px;
-    
+    font-size: 23px; 
 }
 
 main .main-page .home-text h1{  
     font-size: 40px;
     line-height: 40px;
     color: rgba(55, 14, 37, 0.931);
-    display: block;
     margin-bottom: 20px;
 }
 main .main-page button{
@@ -37,8 +33,10 @@ main .main-page button:hover {
     transform: scale(1.05);
 }
 main .main-page .home-img img{
+    width: 85%;
+    height: 85%;
+    margin-left: 10%; 
     border-radius: 50%;
     box-shadow: 0 10px 40px rgba(0, 0, 0, 0.391);
-    width: 100%;
-    height: 100%; 
+    
 }
