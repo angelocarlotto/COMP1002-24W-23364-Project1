@@ -1,124 +1,280 @@
+/* ======================HEADER STYLE SECTION (must be same all pages)===========================*/
 /*General Style*/
 * {
-    /*remove some extra stuff that browser can add to page by default*/
-    margin: 0;/*remove margin from all elements*/
-    padding: 0;/*remove padding from all elements*/
-    box-sizing: border-box;/*apply border-box to all elements*/
-    font-family: 'Poppins', sans-serif;/*apply font family to all elements*/
+  /*remove some extra stuff that browser can add to page by default*/
+  margin: 0; /*remove margin from all elements*/
+  padding: 0; /*remove padding from all elements*/
+  box-sizing: border-box; /*apply border-box to all elements*/
+  font-family: "Poppins", sans-serif; /*apply font family to all elements*/
 }
 
 /*header style*/
 header {
-    display: flex;/*display header as flex*/
-    align-items: center;/*align header items to center*/
-    box-shadow: 0 10px 40px rgba(0, 0, 0, 0.391);/*add shadow to header*/
-    background: linear-gradient(to bottom, rgb(85, 17, 60), rgba(55, 14, 37, 0.931));/*apply gradient to header*/
+  display: flex; /*display header as flex*/
+  align-items: center; /*align header items to center*/
+  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.391); /*add shadow to header*/
+  background: linear-gradient(
+    to bottom,
+    rgb(85, 17, 60),
+    rgba(55, 14, 37, 0.931)
+  ); /*apply gradient to header*/
 }
 
-header .menu-search{        
-    margin-right: 50px;/*add margin to menu-search*/;
-    
+header .menu-search {
+  margin-right: 50px; /*add margin to menu-search*/
 }
 
-header .menu-search input{
-    padding: 10px 20px;/*add padding to input field*/
-    border: none;/*remove border from input*/
-    border-radius: 20px;/*add border radius to input*/
-    
-    
+header .menu-search input {
+  padding: 10px 20px; /*add padding to input field*/
+  border: none; /*remove border from input*/
+  border-radius: 20px; /*add border radius to input*/
 }
 
 header .menu-search button {
-    display: none; /* hides button search */
+  display: none; /* hides button search */
 }
 
 header .menu-search input:hover {
-    transition: 0.2s;
-    transform: scale(1.10);
+  transition: 0.2s;
+  transform: scale(1.1);
 }
 
-
-header .logo{
-    padding-top: 10px;
-    margin-left: 50px;/*add margin to logo*/
+header .logo {
+  padding-top: 10px;
+  margin-left: 50px; /*add margin to logo*/
 }
 
-header .logo:hover{
-    transition: 0.2s;/*add transition effect to logo*/
-    transform: scale(1.10);/*increase size of logo on hover*/
-    cursor: pointer;/*change cursor to pointer on hover*/
+header .logo:hover {
+  transition: 0.2s; /*add transition effect to logo*/
+  transform: scale(1.1); /*increase size of logo on hover*/
+  cursor: pointer; /*change cursor to pointer on hover*/
 }
 
 header nav {
-    flex-grow: 1; /*flex grow makes nav menu takes up remaining space of header making it spread troughout the navigation menu */
-    text-align: center; /*center align links*/
-
+  flex-grow: 1; /*flex grow makes nav menu takes up remaining space of header making it spread troughout the navigation menu */
+  text-align: center; /*center align links*/
 }
 
-header a{
-    color:rgb(255, 255, 255);/*change color of links*/
-    text-decoration: none;/*remove underline from links*/
-    font-size: 23px;
+header a {
+  color: rgb(255, 255, 255); /*change color of links*/
+  text-decoration: none; /*remove underline from links*/
+  font-size: 23px;
 }
 
 header a:hover {
-    transition: 0.2s;/*add transition effect to links on hover*/
-    color: rgb(178, 154, 193);/*change color of links on hover*/
+  transition: 0.2s; /*add transition effect to links on hover*/
+  color: rgb(178, 154, 193); /*change color of links on hover*/
 }
 
-
-
-header nav ul li{ /*navigation menu links*/
-    justify-content: center;
-    display: inline-block; /*display links in a row*/
-    padding: 0 100px; /*add padding to each link*/
+header nav ul li {
+  /*navigation menu links*/
+  justify-content: center;
+  display: inline-block; /*display links in a row*/
+  padding: 0 100px; /*add padding to each link*/
 }
 
-header nav ul li a.active{
-    color: rgb(178, 154, 193);/*change color of active link*/
+header nav ul li a.active {
+  color: rgb(178, 154, 193); /*change color of active link*/
 }
-
-
 
 /*body style*/
 body {
-    background-color: rgb(208, 205, 205);/*change background color of body*/
+  background-color: rgb(208, 205, 205); /*change background color of body*/
 }
 
-
+/* ======================FOOTER STYLE SECTION (must be same all pages)===========================*/
 
 /*footer style*/
 footer {
-    display: flex;/*display footer as flex*/
-    align-items: center;/*align footer items to center*/
-    justify-content: space-between;/*justify content of footer to space between*/
-    background: linear-gradient(to bottom, rgba(55, 14, 37, 0.931), rgb(85, 17, 60));
-    box-shadow: 0 10px 40px rgba(0, 0, 0, 0.391);/*add shadow to footer*/
-    
+  display: flex; /*display footer as flex*/
+  align-items: center; /*align footer items to center*/
+  justify-content: space-between; /*justify content of footer to space between*/
+  background: linear-gradient(
+    to bottom,
+    rgba(55, 14, 37, 0.931),
+    rgb(85, 17, 60)
+  );
+  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.391); /*add shadow to footer*/
 }
 
 footer .footer-text {
-    color: white;
+  color: white;
 }
 
-footer .logo{
-    margin-left: 70px;/*add margin to logo*/
+footer .logo {
+  margin-left: 70px; /*add margin to logo*/
 }
 
-footer .logo:hover{
-    transition: 0.2s;/*add transition effect to logo*/
-    transform: scale(1.10);/*increase size of logo on hover*/
-    cursor: pointer;/*change cursor to pointer on hover*/
+footer .logo:hover {
+  transition: 0.2s; /*add transition effect to logo*/
+  transform: scale(1.1); /*increase size of logo on hover*/
+  cursor: pointer; /*change cursor to pointer on hover*/
 }
 
-footer .social-media-buttons{
-    margin-right: 50px;/*add margin to social media buttons*/
-    filter: invert(1);/*invert color of social media buttons*/    
+footer .social-media-buttons {
+  margin-right: 50px; /*add margin to social media buttons*/
+  filter: invert(1); /*invert color of social media buttons*/
 }
-footer .social-media-buttons a{
-    margin: 0 10px;/*add margin to social media buttons*/
+footer .social-media-buttons a {
+  margin: 0 10px; /*add margin to social media buttons*/
 }
 
-footer .social-media-buttons:hover{
-    cursor: pointer;/*change cursor to pointer on hover*/
+footer .social-media-buttons:hover {
+  cursor: pointer; /*change cursor to pointer on hover*/
 }
+
+/* ======================INDEX PAGE STYLE SECTION ===========================*/
+/*
+main.pageIndexStyle a{
+
+    
+}
+*/
+/* ======================ABOUT PAGE STYLE SECTION ===========================*/
+/*
+main.pageAboutStyle a{
+
+    
+}
+*/
+/* ======================PRODUCTS PAGE STYLE SECTION ===========================*/
+
+main.pageProductsStyle {
+
+  display: flex;
+flex-direction: column;
+height: 720px;
+margin: 0 70px;
+padding: 20px;
+box-shadow: 0 15px 40px rgba(0, 0, 0, .5);
+}
+
+main.pageProductsStyle h1 {
+  text-align: center;
+  color: rgba(55, 14, 37, 0.931);
+}
+/* refer to caroucel galery */
+
+main.pageProductsStyle button {
+  border: none;
+  cursor: pointer;
+  color: white;
+  background: none;
+  transition: all 0.3s ease-in-out;
+}
+
+main.pageProductsStyle .container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(255, 255, 255, 0);
+}
+
+main.pageProductsStyle .carousel-view {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+  transition: all 0.25s ease-in;
+}
+
+main.pageProductsStyle .carousel-view .item-list {
+  max-width: 950px;
+  width: 70vw;
+  padding: 50px 10px;
+  display: flex;
+  gap: 30px;
+  scroll-behavior: smooth;
+  transition: all 0.25s ease-in;
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+  overflow: auto;
+  scroll-snap-type: x mandatory;
+}
+
+/* Hide scrollbar for Chrome, Safari and Opera */
+main.pageProductsStyle .item-list::-webkit-scrollbar {
+  display: none;
+}
+
+main.pageProductsStyle .prev-btn {
+  background: none;
+  cursor: pointer;
+}
+
+main.pageProductsStyle .next-btn {
+  cursor: pointer;
+}
+
+main.pageProductsStyle .item {
+  scroll-snap-align: center;
+  text-align: center;
+}
+
+main.pageProductsStyle  img {
+  width: 200px;
+  height: 200px;
+  border-radius: 8px;
+}
+
+
+main.pageProductsStyle .listaImagens{
+  text-align: center;
+}
+
+main.pageProductsStyle .listaImagens div{
+  padding-top: 30px;
+}
+
+main.pageProductsStyle .item a {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #3498db; /* Change the background color to your desired color */
+  color: #ffffff; /* Set the text color to contrast with the background */
+  text-decoration: none;
+  border-radius: 5px; /* Optional: Add rounded corners for a button-like appearance */
+  transition: background-color 0.3s ease; /* Optional: Add a smooth transition effect */
+}
+
+main.pageProductsStyle .item a:hover {
+  background-color: #2980b9; /* Change the background color on hover to give feedback */
+}
+
+/* ======================PRODUCTS DETAILS PAGE STYLE SECTION ===========================*/
+
+main.pageDatailProductStyle {
+  display: flex;
+  flex-direction: column;
+  height: 720px;
+  margin: 0 70px;
+  padding: 20px;
+  box-shadow: 0 15px 40px rgba(0, 0, 0, 0.5);
+}
+
+main.pageDatailProductStyle .column {
+  float: left;
+  width: 50%;
+  padding: 10px;
+}
+
+/* Clear floats after the columns */
+main.pageDatailProductStyle .row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+main.pageDatailProductStyle .column img {
+  width: 100%;
+  border-radius: 8px;
+  box-shadow: 0 15px 40px rgba(0, 0, 0, 0.5);
+}
+
+/* ======================CONTACT PAGE STYLE SECTION ===========================*/
+
+/*
+main.pageContacttyle a{
+
+    
+}
+*/
