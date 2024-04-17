@@ -14,7 +14,6 @@
 
         <title>Nostalgia Keys</title>
         <link rel="stylesheet" href="css/styles.css" />
-        <link rel="stylesheet" href="css/contact.css" />
         <link rel="icon" type="image/x-icon" href="/images/favicon.ico" />
         </head>
 
@@ -46,7 +45,7 @@
 
         <main>
             
-            <div class="container">
+            <div class="contact_container">
                 <div class="top">
                     <h1>Contact</h1>
                     <p>For any inquiries, please contact us at:</p>
@@ -55,10 +54,18 @@
                     <div class="left"></div>
                     <div class="right">
                         <form action="contact.php" method="post">
-                           <input type="text" name="" id="firtname" placeholder="First Name" required>
-                            <input type="text" name="" id="lastname" placeholder="Last Name" required>
+                            <label for="firtname">First Name</label>
+                           <input type="text" name="firtname" id="firtname" placeholder="First Name" required>
+
+                           <label for="lastname">Last Name</label>
+                           <input type="text" name="lastname" id="lastname" placeholder="Last Name" required>
+
+                            <label for="email">Email</label>
                             <input type="email" name="email" id="email" placeholder="Your email" required>
-                            <textarea name="" id="" cols="30" rows="10" placeholder="Your Message" required></textarea>
+
+
+                            <label for="message">Your message</label>
+                             <textarea name="message" id="message" cols="30" rows="10" placeholder="Your Message" required></textarea>
                             <input type="submit" value="Submit">
                         </form>
                     </div>
@@ -85,7 +92,7 @@
                 <a href="https://www.facebook.com/"><img src="images/facebook.svg" alt="facebook logo" height="30px" width="30px" /></a>
                 <a href="https://www.instagram.com/"><img src="images/instagram.svg" alt="instagram logo" height="30px" width="30px" /></a>
                 <a href="https://www.twitter.com/"><img src="images/twitter.svg" alt="twitter logo" height="30px" width="30px" /></a>
-            </section>
+            </section></footer>
 
     </body>
 </html>
